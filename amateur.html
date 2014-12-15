@@ -1,0 +1,103 @@
+---
+layout: default
+---
+<div class="row">
+    <h2 class="text-center">Pick a wine:</h2>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <div id="main">
+        <ul class="flip" id="scroll">
+                <li>
+                    <div class="col-xs-4">
+                        <img src="img/bottles/cricova.png" />
+                    </div>
+                    <div class="col-xs-8">
+                        <h4 class="text-center">Cricova</h4>
+                        <p class="text-center">Sauvignon 2011</p>
+                        <p class="text-center">Blanc</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-xs-4">
+                        <img src="img/bottles/bostavan.png" />
+                    </div>
+                    <div class="col-xs-8">
+                        <h4 class="text-center">Bostavan</h4>
+                        <p class="text-center">Cocori</p>
+                        <p class="text-center">Merlot Rose</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-xs-4">
+                        <img src="img/bottles/purcari.png" />
+                    </div>
+                    <div class="col-xs-8">
+                        <h4 class="text-center">Purcari</h4>
+                        <p class="text-center">Freedom Blend</p>
+                        <p class="text-center">Rara Neagra, Saperavio</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-xs-4">
+                        <img src="img/bottles/vartely.png" />
+                    </div>
+                    <div class="col-xs-8">
+                        <h4 class="text-center">Chateu Vartely</h4>
+                        <p class="text-center">Rara Neagră</p>
+                        <p class="text-center">Merlot &amp; Syrah</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-xs-4">
+                        <img src="img/bottles/cricova.png" />
+                    </div>
+                    <div class="col-xs-8">
+                        <h4 class="text-center">Cricova</h4>
+                        <p class="text-center">Sauvignon 2011</p>
+                        <p class="text-center">Blanc</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-xs-4">
+                        <img src="img/bottles/bostavan.png" />
+                    </div>
+                    <div class="col-xs-8">
+                        <h4 class="text-center">Bostavan</h4>
+                        <p class="text-center">Cocori</p>
+                        <p class="text-center">Merlot Rose</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-xs-4">
+                        <img src="img/bottles/purcari.png" />
+                    </div>
+                    <div class="col-xs-8">
+                        <h4 class="text-center">Purcari</h4>
+                        <p class="text-center">Freedom Blend</p>
+                        <p class="text-center">Rara Neagra, Saperavio</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-xs-4">
+                        <img src="img/bottles/vartely.png" />
+                    </div>
+                    <div class="col-xs-8">
+                        <h4 class="text-center">Chateu Vartely</h4>
+                        <p class="text-center">Rara Neagră</p>
+                        <p class="text-center">Merlot &amp; Syrah</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+$(document).ready(function(){
+    $('ul#scroll').css("height", screen.height-73);
+    stroll.bind( '#main ul' );
+    $('ul#scroll > li').on('tap click', function() {
+        window.location = "expl.html";
+    });
+});
+</script>

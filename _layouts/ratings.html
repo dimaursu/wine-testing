@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <h3 class="text-center" id="ratingTitle"></h3>
+            <!-- attach the title up here -->
+        </div>
+        <div class="row">
+            <div id="ratingBase" data-toggle="buttons">
+                <!-- attach the rating buttons here -->
+            </div>
+        </div>
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

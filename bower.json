@@ -1,0 +1,21 @@
+{
+  "name": "wntst",
+  "version": "0.0.0",
+  "authors": [
+    "Dumitru Ursu <dima@ceata.org>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "stroll": "*",
+    "pleasejs": "~0.4.2",
+    "raty": "~2.7.0"
+  }
+}

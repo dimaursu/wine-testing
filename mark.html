@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<a class="btn btn-lg btn-primary down_right" href="{{ "question.html" | prepend: site.baseurl }}">Next</a>
+
+<link rel="stylesheet" src="{{ "/bower_components/raty/lib/jquery.raty.css" | prepend: site.baseurl }}">
+
+<div class="row">
+    <h2 class="text-center">Rate the wine:</h2>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="text-center" id="raty"></div>
+        <!-- Behold! some jquery plugin will be attached here -->
+    </div>
+</div>
+
+<script type="text/javascript" src="{{ "bower_components/raty/lib/jquery.raty.js" | prepend: site.baseurl }}"></script>
+<script>
+$(document).ready(function(){
+    $('#raty').raty({
+        readOnly    : false,
+        half        : true,
+        starHalf    : 'img/glass-half.png',
+        starOff     : 'img/glass-empty.png',
+        starOn      : 'img/glass-full.png',
+    });
+});
+</script>
