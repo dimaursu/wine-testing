@@ -13,7 +13,7 @@ and `phonegap` and all of it's dependencies to get it running on your phone.
 
 Run the following in the root of your project:
 ```
-bower install
+bower install --save
 # the bower packages will be installed, all sorts of assets, libraries, and so
 # on
 
